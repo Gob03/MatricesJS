@@ -1,0 +1,105 @@
+:root{
+	--color-logo: #171D1C;
+	--color-titulosSect: #5863F8;
+	--color-bg: #C7EBFF;
+	--color-btn: #32CBFF;
+	--color-extra: #7BDFF2;
+
+	--color-textDark: #555555;
+	--color-textBright: #EEEEEE;
+}
+
+.spanSign{
+	font-size: 3em;
+	font-weight: 900;
+}
+
+#ordenContainer{
+	text-align: center;
+	font-weight: 900;
+	margin: 10px;
+	border-bottom: 2px solid var(--color-titulosSect);
+}
+
+.ordenInputs{
+	min-width: 40px;
+	width: 20%;
+	height: 40px;
+	text-align: center;
+	background: var(--color-extra);
+	border: 1px solid #001011;
+	border-radius: 5px;
+}
+
+.ordenInputs::placeholder{
+	color: #093A3E;
+}
+
+.btns{
+	display: block;
+	width: 50%;
+	margin: 10px 25%;
+	height: 40px;
+	background: linear-gradient(#32CBFF, #5863F8);
+	border:1px solid #093A3E;
+	border-radius: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	color: #EEEEEE;
+	font-weight: 900;
+}
+
+.btns:hover, .btns:hover{
+	background: linear-gradient(#5863F8, #32CBFF);
+}
+
+#tablesInputsContainer, #tableResultContainer{
+	text-align: center;
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+table{
+	display: inline-block;
+	background: var(--color-titulosSect);
+	margin: 2%;
+}
+
+table tr td  input, table tr td{
+	text-align: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 2px;
+	border: none;
+	background: var(--color-extra); 
+}
+
+table tr td input:focus{
+	background: #59BDD9;
+}
+
+#inputValor{
+	height: 35px;
+	width: 35px;
+	background: var(--color-extra);
+	border: 2px solid var(--color-titulosSect);
+	border-radius: 2px;
+	text-align: center;
+	margin: 2%;
+}
+
+.ordenMatricesSections{
+	display: inline-block;
+	width: 45%;
+}
+
+#rangoText{
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+				

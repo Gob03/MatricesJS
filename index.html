@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MatricesJS - HomePage</title>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/css.css">
+</head>
+<body>
+	<header id = "titlePage">
+		<a href="#"><h1>MatricesJS</h1></a>
+		<nav id = "mobileMenu" >
+			<ul>
+				<li></li>
+			</ul>
+		</nav>
+	</header>
+	<div id = "mainContainer">
+		<div class = "sectionPage">
+			<h2>Que puedo hacer en esta pagina?</h2>
+
+			<P>Matriz con Matriz:</P>
+			<ul>
+				<li>
+					<a href="#matriz+matriz" class="linksHomePage">Sumar Matrices</a>
+				</li>
+				<li>
+					<a href="#matriz-matriz" class="linksHomePage">Restar Matrices</a>
+				</li>
+				<li>
+					<a href="#matriz*matriz" class="linksHomePage">Multiplicar Matrices</a>
+				</li>
+				<li>
+					<a href="#matriz/matriz" class="linksHomePage">Dividir Matrices</a>
+					NO DISPONIBLE
+				</li>
+			</ul>
+
+			<p>Matriz con Valor:</p>
+			<ul>
+				<li>
+					<a href="#valor+matriz" class="linksHomePage">Sumar Matriz</a>
+				</li>
+				<li>
+					<a href="#valor-matriz" class="linksHomePage">Restar Matriz</a>
+				</li>
+				<li>
+					<a href="#valor*matriz" class="linksHomePage">Multiplicar Matriz</a>
+				</li>
+				<li>
+					<a href="#valor/matriz" class="linksHomePage">Dividir Matriz</a>
+					NO DISPONIBLE
+				</li>
+			</ul>
+
+			<p>Otras operaciones con matrices:</p>
+			<ul>
+				<li>
+					<a href="#transpuesta" class="linksHomePage">Transpuesta</a>
+				</li>
+				<li>
+					<a href="#rango" class="linksHomePage">Rango</a>
+				</li>
+				<li>
+					<a href="#determinante" class="linksHomePage">Determinante</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class = "sectionPage" id="calculosDiv">
+			<h2>Calculos Disponibles:</h2>
+
+			<P>Matriz con Matriz:</P>
+			<ul>
+				<li>
+					<div class="gridElement" id="matriz+matriz">
+						<h3>Sumar:</h3>
+						<img src="imgs/matriz+matrizimg.jpg">
+						<span>Sumar matrices de igual orden.</span>
+						<a href="calculos/matrizxmatriz/sumarMatrices.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="matriz-matriz">
+						<h3>Restar:</h3>
+						<img src="imgs/matriz-matrizimg.jpg">
+						<span>Restar  matrices de igual orden.</span>
+						<a href="calculos/matrizxmatriz/restarMatrices.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="matriz*matriz">
+						<h3>Multiplicar:</h3>
+						<img src="imgs/matrizmultmatrizimg.jpg">
+						<span>Multiplicar matrices de diferente orden.</span>
+						<a href="calculos/matrizxmatriz/multiplicarMatrices.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="matriz/matriz">
+						<h3>Dividir:</h3>
+						<img src="imgs/matrizentrematrizimg.jpg">
+						<span>EN DESARROLLO.</span>
+						<input type="button" name="" value="Calcular">
+					</div>
+				</li>
+			</ul>
+
+			<p>Matriz con Valor:</p>
+			<ul>
+				<li>
+					<div class="gridElement" id="valor+matriz">
+						<h3>Sumar:</h3>
+						<img src="imgs/valor+matrizimg.jpg">
+						<span>Sumar un valor a elementos de una matriz.</span>
+						<a href="calculos/valorxmatriz/sumarValorMatriz.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="valor-matriz">
+						<h3>Restar:</h3>
+						<img src="imgs/valor-matrizimg.jpg">
+						<span>Restar un valor a elementos de una matriz.</span>
+						<a href="calculos/valorxmatriz/restarValorMatriz.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="valor*matriz">
+						<h3>Multiplicar:</h3>
+						<img src="imgs/valormultmatrizimg.jpg">
+						<span>Multiplicar un valor a elementos de una matriz.</span>
+						<a href="calculos/valorxmatriz/multiplicarValorMatriz.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="valor/matriz">
+						<h3>Dividir:</h3>
+						<img src="imgs/valorentrematrizimg.jpg">
+						<span>EN DESARROLLO.</span>
+						<input type="button" name="" value="Calcular">
+					</div>
+				</li>
+			</ul>
+
+			<p>Otras operaciones con matrices:</p>
+			<ul>
+				<li>
+					<div class="gridElement" id="transpuesta">
+						<h3>Transpuesta:</h3>
+						<img src="imgs/matriz+matrizimg.jpg">
+						<span>Buscar transpuesta de una matriz.</span>
+						<a href="calculos/otroscalculos/transpuesta.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="rango">
+						<h3>Rango:</h3>
+						<img src="imgs/matriz+matrizimg.jpg">
+						<span>Buscar el rango de una matriz.</span>
+						<a href="calculos/otroscalculos/rango.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+				<li>
+					<div class="gridElement" id="determinante">
+						<h3>Determinante:</h3>
+						<img src="imgs/matriz+matrizimg.jpg">
+						<span>Buscar el determinante de una matriz.</span>
+						<a href="calculos/otroscalculos/determinante.html"><input type="button" name="" value="Calcular"></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
